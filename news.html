@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Berita</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-nav">
+      <img src="logo.png" alt="Logo Haleyora Power" class="logo">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Gambar Header -->
+  <section class="news-banner"></section>
+
+  <!-- Judul Berita di bawah background -->
+  <section class="news-title">
+    <h1>Berita Terbaru</h1>
+  </section>
+
+  <!-- Daftar Berita -->
+  <main class="news-container">
+    <div class="news-card">
+      <img src="berita1.jpg" alt="Berita 1">
+      <h3>Dorong Pertumbuhan Industri dan Iklim Investasi: Haleyora Power Gandeng PT Pilar Bahtera Energi Hadirkan Keandalan Listrik Kualitas Tinggi</h3>
+      <p>Kerja sama ini merupakan wujud nyata komitmen PLN Group untuk mendukung iklim investasi dan keandalan sistem.</p>
+    </div>
+
+    <div class="news-card">
+      <img src="berita2.jpg" alt="Berita 2">
+      <h3>Gelar Kesamaptaan untuk Personel Yantek: Wujud Komitmen Haleyora Power Jaga Keandalan Pasokan Listrik</h3>
+      <p>Kegiatan yang dilaksanakan sejak April diikuti oleh lebih dari 1.800 personel Yantek di 6 batch.</p>
+    </div>
+
+    <div class="news-card">
+      <img src="berita3.jpg" alt="Berita 3">
+      <h3>Lagi, Haleyora Power Raih Penghargaan dari Wuling: Komitmen Akselerasi EV Ekosistem di Indonesia</h3>
+      <p>Haleyora Power diakui sebagai mitra strategis Wuling dalam penyediaan charging station EV.</p>
+    </div>
+  </main>
+
+  <div class="back-button">
+    <a href="index.html">← Kembali ke Beranda</a>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> PT Haleyora Power. Neisyaaf (202332036).</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
